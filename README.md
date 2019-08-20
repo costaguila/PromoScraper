@@ -7,7 +7,7 @@ Este script foi de forma que ele obedeça a política de privacidade e ao arquiv
 # O que é Web scraping
 "Web scraping é uma técnica de extração de dados utilizada para coletar dados de sites. Por meio de processos automatizados, implementados usando um rastreador bot, esse tipo de “raspagem” de informações é uma forma de realizar cópias de dados em que informações específicas são coletadas e copiadas da web, tipicamente em um banco de dados ou planilha local central, para posterior recuperação ou análise.  
 
-Extraido de Blog Brasil Westcon  (<a href='https://blogbrasil.westcon.com/o-que-e-web-scraping'>https://blogbrasil.westcon.com/o-que-e-web-scraping</a> ) no dia 20 de agosto de 2018.
+Extraido de Blog Brasil Westcon  (<a href='https://blogbrasil.westcon.com/o-que-e-web-scraping'>https://blogbrasil.westcon.com/o-que-e-web-scraping</a> ) no dia 20 de agosto de 2019.
 # Requisitos
 
  - Python 3
