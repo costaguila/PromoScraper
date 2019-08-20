@@ -1,0 +1,2 @@
+# PromoScraper
+Scraper de promoções.
