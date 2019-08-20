@@ -14,6 +14,8 @@ def InParallel(urls=[],alvo=None):
     processes = [mp.Process(target=alvo,args=(section,queue)) for section in urls]
     # start processes
     print("Iniciando {} scrapers.".format(len(processes)))
+    print("DELAY PADRÃO(para não sobrecarregar os servidores,\
+    se quiser diminuir altere no arquivo scrape.py): {} SEGUNDOS".format(STANDARD_DELAY))
     inicio = datetime.now()
     for p in processes:
         p.daemon = True
