@@ -38,11 +38,11 @@ def InParallel(urls=[],alvo=None):
     return results
 
 if __name__ == "__main__":
-    to_scrape = sectionSelect([SECTION_COMPUTADORES,SECTION_TECEESCRITORIO,SECTION_SMARTPHONES], pelando.ALL_SECTIONS)
+    to_scrape = sectionSelect([SECTION_VIDEOGAMES,SECTION_COMPUTADORES], pelando.ALL_SECTIONS)
     temp = []
-    query = ['SSD','KiNgsTon']
+    query = ['controle']
     for page in to_scrape:
-        for i in range(1,3):
+        for i in range(1,7):
             temp.append(page+"?page={}".format(i))
     to_scrape = temp
     data = InParallel(to_scrape,pelando.scrapePelandoSection)
